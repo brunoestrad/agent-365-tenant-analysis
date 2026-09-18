@@ -639,3 +639,5 @@ if ($classicReport.Count -gt 0) {
 }
 Write-Host "   ✅ Workbook saved : $ReportOutputPath" -ForegroundColor Green
 Write-Host "`n✅ Report complete.`n"                  -ForegroundColor Green
+
+Disconnect-MgGraph

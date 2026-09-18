@@ -1,0 +1,6 @@
+AgentGovernanceReport_*.xlsx
+*.xlsx
+*.csv
+.env
+reports/
+output/
